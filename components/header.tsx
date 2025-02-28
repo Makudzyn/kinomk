@@ -1,5 +1,3 @@
-"use client"
-
 import Link from "next/link"
 import { Film, Search, User, ChevronDown } from "lucide-react"
 import { ModeToggle } from "@/components/mode-toggle"
@@ -31,7 +29,6 @@ export default function Header() {
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
-              
             </nav>
           </div>
 

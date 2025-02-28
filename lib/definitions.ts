@@ -1,4 +1,4 @@
-export interface IMoive {
+export interface IMovie {
   adult: boolean;
   backdrop_path: string;
   genre_ids: number[];
@@ -17,7 +17,7 @@ export interface IMoive {
 
 export interface IFetchResponse {
   page: number;
-  results: IMoive[];
+  results: IMovie[];
   total_pages: number;
   total_results: number;
 }
