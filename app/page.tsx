@@ -1,6 +1,7 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import Header from "@/components/header";
 import MovieGrid from "@/components/movie-grid";
+import Footer from "@/components/footer/footer";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
           <h1 className="text-3xl font-bold mb-6">Popular Movies</h1>
         </main>
         <MovieGrid/>
+        <Footer />
       </div>
     </ThemeProvider>
   )
